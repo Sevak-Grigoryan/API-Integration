@@ -5,7 +5,7 @@ TOKEN = "Telegram Bot Token"
 bot = TeleBot(token=TOKEN)
 
 API_URL = "https://chatgpt-42.p.rapidapi.com/geminipro"
-API_KEY = "e8af113157msh074aa82e239ef69p1ac970jsn1ce3f079966f"
+API_KEY = "API_KEY"
 
 @bot.message_handler(commands=["start"])
 def start(message):
